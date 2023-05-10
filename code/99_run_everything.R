@@ -1,0 +1,10 @@
+library(here)
+
+source(here("code/00_dependencies.R"))
+source(here("code/01_load_raw_data.R"))
+source(here("code/02_clean_and_create_dtm_structure.R"))
+source(here("code/03_fit_lda.R"))
+source(here("code/04_report_on_lda.R"))
+source(here("code/05_classify_headlines_to_topics.R"))
+source(here("code/06_ngrams_by_topic.R"))
+source(here("code/07_streamgraph.R"))
